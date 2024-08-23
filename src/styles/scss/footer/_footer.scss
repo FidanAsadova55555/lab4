@@ -1,0 +1,226 @@
+.footersection{
+    background-color: #090909;
+    padding-top: 70px;
+    .container{
+       
+        .row{
+            width: 100%;
+            .col-3{
+                
+                .footer__qr {
+                   
+                    border: 1px solid #545454;
+                    border-radius: 1.6rem;
+                    padding: 5rem 4.5rem 3.2rem;
+                    max-width: 26.8rem;
+                    text-align: center;
+                    
+                    color: #95979c;
+                    background-color: black;
+                   img{
+                   
+                    vertical-align: middle;
+                    border-style: none;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+                   }
+                   p{
+                    width: 100%;
+                    font-family: Inter, sans-serif;
+                    font-weight: 500;
+                    font-size: 1.3rem;
+                    line-height: 2rem;
+                   }
+                }
+
+            }
+            .col-2{
+                .footer__menu__item{
+                    h3{
+                        font-weight: 600;line-height: 1.2;
+    font-size: 2.4rem;
+    color: #f8f8f8;
+    margin-bottom: 3.6rem;
+    font-family: Inter, sans-serif;
+
+                    }
+                    &__sub{
+                        
+                        &__item{
+                            margin-bottom: 1.2rem;
+                            font-family: Inter, sans-serif;
+    font-weight: 400;font-size: 1.4rem;
+                            a{text-decoration: none;color: #95979c;
+                                p{
+                                    margin-top: 8px;
+                                }
+                            }
+                           
+
+                        }
+                        
+
+                    }
+                }
+            }
+            .col-2{
+                .footer__menu__item{
+                    h3{
+                        font-weight: 600;line-height: 1.2;
+    font-size: 2.4rem;
+    color: #f8f8f8;
+    margin-bottom: 3.6rem;
+    font-family: Inter, sans-serif;
+
+                    }
+                    &__sub{
+                        
+                        &__item{
+                            margin-bottom: 1.8rem;
+                            font-family: Inter, sans-serif;
+    font-weight: 400;font-size: 1.4rem;
+                            a{text-decoration: none;color: #95979c;
+p{
+    margin-top: 8px;
+}
+                            }
+                           
+
+                        }
+                        
+
+                    }
+                }
+            }
+            .col-md-4{
+              .footer__contacts{
+                h3{
+                    font-weight: 600;
+        font-size: 2.4rem;
+        color: #f8f8f8;
+        margin-bottom: 3.6rem;display: block;
+        font-family: Inter, sans-serif;
+                  }
+                  .getinfo{
+                    
+                    border-bottom: 1px solid #95979c;
+                    padding-bottom: 50px ;
+                    display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 30px;
+                    .number{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                   p{
+                            font-family: Inter, sans-serif;
+    font-weight: 700;font-size: 1.5rem;color: #f8f8f8;
+    
+    
+    
+    
+                        }
+                    }
+                    .icon{
+                      
+                        i{
+                            font-size: 2.5rem;
+                            border: 1px solid #f8f8f8;
+                            border-radius: 100%;
+                            padding: 20px;color: #f8f8f8;
+                        }
+                    }
+                    .address{
+                        p{
+                            font-family: Inter, sans-serif;
+                            font-size: 1.6rem;
+                            color: #f8f8f8;
+                            color: black;
+                            line-height: 2rem;
+                            color: #f8f8f8;
+    font-weight: 500px;
+    
+    
+    
+                        }
+                    }
+                  }
+                   .follow{
+                    h4{ font-weight: 500;
+                        font-size: 1.6rem;
+                        color: #f8f8f8;
+                        margin: 2.6rem 0;display: block;
+                        font-family: Inter, sans-serif;
+
+                    }.cites{
+                        font-size: 2.6rem;
+                        color: #f8f8f8;
+                    }
+                   }
+                   .store-buttons {
+                    display: flex;
+                    gap: 10px; 
+                  
+                    .store-button {
+                        margin-top: 40px;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      padding: 10px 10px;
+                      border: 1px solid white;
+                      border-radius: 9px;
+                      outline: #f8f8f8;
+                      color: white;
+                      
+                      text-decoration: none;
+                      font-size: 10px;
+                      font-family: Inter, sans-serif;
+
+                      
+                      background-color: #222; 
+                      
+                  
+                   p{
+                    font-size: 18px;
+                   }
+                      i {
+                        margin-right: 8px;
+                        font-size: 30px; 
+                      }
+                    }
+                  
+                  
+                  }
+                  
+                  
+              }
+              
+            }
+            .footer__copyright{
+                margin-top: 10rem;
+                align-items: center;
+                .col-lg-5{color: #95979c;    font-family: Inter, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.4rem;
+
+                }
+                .col-lg-4{
+                    color: #95979c;    font-family: Inter, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.4rem;
+                   a{
+                    text-decoration: none;color: #95979c;    font-family: Inter, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.4rem;
+                    span{
+                        font-weight: 600;
+                    }
+                   }
+                }
+            }
+            }
+                    
+        }
+    }
