@@ -357,4 +357,19 @@
 }
 .footersection .container .row .footer__copyright .col-lg-4 a span {
   font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+  .footer__copyright {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .footer__copyright .col-lg-5,
+  .footer__copyright .col-lg-4 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
 }/*# sourceMappingURL=style.css.map */
