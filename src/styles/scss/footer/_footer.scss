@@ -93,7 +93,7 @@ p{
                     }
                 }
             }
-            .col-md-4{
+            .col-4{
               .footer__contacts{
                 h3{
                     font-weight: 600;
@@ -231,6 +231,18 @@ p{
     
         .navbar{
             display: none;
+        }
+        .row{
+            .col-4{
+                width: 100%;
+            }
+            .col-2{
+                width: 50%;
+            }
+            .col-3{
+                margin: 0 auto;width: 60%;
+                margin-bottom: 40px;
+            }
         }
             
     
