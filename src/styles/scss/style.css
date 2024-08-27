@@ -5,6 +5,7 @@
 }
 
 .container .row {
+  width: 100%;
   margin-top: 30px;
   display: flex;
   align-items: center;
@@ -395,7 +396,10 @@
     margin-bottom: 2rem;
   }
 }
-#image .imageplace {
+#image .row {
+  width: 100%;
+}
+#image .row .imageplace {
   height: 302.5px;
   width: 100%;
   background-image: url("https://irshad.az/images/category-bg.jpg");
@@ -408,23 +412,23 @@
   position: relative;
   gap: 170px;
 }
-#image .imageplace .item {
+#image .row .imageplace .item {
   z-index: 1;
   left: 80px;
   position: absolute;
 }
-#image .imageplace .item .medialogo {
+#image .row .imageplace .item .medialogo {
   width: 165px;
   height: 20px;
   margin-bottom: 1.6rem;
 }
-#image .imageplace .item .medialogo img {
+#image .row .imageplace .item .medialogo img {
   width: 100%;
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
 }
-#image .imageplace .item .name p {
+#image .row .imageplace .item .name p {
   margin-bottom: 0;
   font-weight: 400;
   font-size: 2.4rem;
@@ -434,7 +438,7 @@
   align-items: center;
   max-width: 42rem;
 }
-#image .imageplace .price {
+#image .row .imageplace .price {
   position: absolute;
   right: 80px;
   z-index: 1;
@@ -443,14 +447,14 @@
   align-items: center;
   gap: 20px;
 }
-#image .imageplace .price p {
+#image .row .imageplace .price p {
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.4rem;
   color: #232d40;
   font-family: Inter, sans-serif;
 }
-#image .imageplace .price h1 {
+#image .row .imageplace .price h1 {
   font-weight: 500;
   font-size: 4.8rem;
   line-height: 5.6rem;
@@ -461,17 +465,17 @@
   font-family: Inter, sans-serif;
   display: inline-block;
 }
-#image .imageplace .price h1 span {
+#image .row .imageplace .price h1 span {
   font-size: 0.64em;
   line-height: 0;
   vertical-align: baseline;
 }
-#image .imageplace .air {
+#image .row .imageplace .air {
   height: 300px;
   width: 280px;
   position: absolute;
 }
-#image .imageplace .air img {
+#image .row .imageplace .air img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -544,4 +548,27 @@
 .header .third .grid i {
   font-size: 40px;
   color: #f6861f;
+}
+
+#textpage .row {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+#textpage .row .textp h1 {
+  font-size: 2.6rem;
+  margin-bottom: 1.6rem;
+  line-height: 1.2;
+  color: #232d40;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+}
+#textpage .row .textp p {
+  width: 100%;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #5b5f66;
+  margin-bottom: 1.6rem;
+  font-weight: 500;
+  font-family: Inter, sans-serif;
 }/*# sourceMappingURL=style.css.map */

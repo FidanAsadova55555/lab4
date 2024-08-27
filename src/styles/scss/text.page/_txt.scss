@@ -1,0 +1,25 @@
+#textpage{
+    .row{
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        .textp{
+            h1{
+                font-size: 2.6rem;    margin-bottom: 1.6rem;
+                line-height: 1.2;
+                color: #232d40;
+                font-family: Inter, sans-serif;
+                font-weight: 600;
+            }
+            p{width: 100%;
+                font-size: 1.4rem;
+        line-height: 2.4rem;
+        color: #5b5f66;
+        margin-bottom: 1.6rem;
+        font-weight: 500;
+        font-family: Inter, sans-serif;
+    
+            }
+        }
+    }
+}

@@ -1,4 +1,6 @@
 #image{
+ .row{
+    width: 100%;
     .imageplace{
         height: 302.5px;
         width: 100%;
@@ -84,6 +86,7 @@
             }
         }
     }
+ }
 }
 .irshadproduct{
     font-weight: 600;
