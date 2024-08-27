@@ -495,14 +495,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  border: 1px solid gray;
+  padding: 20px 35px;
 }
 .header .first {
   color: #95979c;
   font-family: Inter, sans-serif;
   font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
 }
 .header .first select {
   border: unset;
@@ -527,6 +528,11 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+  color: #95979c;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 2rem;
 }
 .header .second .square {
   width: 30px;
@@ -539,23 +545,253 @@
   justify-content: center;
   align-items: center;
   gap: 15px;
+  margin-left: 50px;
+  color: #95979c;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
 }
 .header .third .grid {
   border: 1px solid black;
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
 }
 .header .third .grid i {
-  font-size: 40px;
+  font-size: 30px;
   color: #f6861f;
 }
 
-#textpage .row {
+.producti {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-top: none;
+  padding: 25px;
+}
+.producti .icons {
   display: flex;
   justify-content: end;
-  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-left: 30px;
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: rgba(169, 179, 193, 0.33);
 }
-#textpage .row .textp h1 {
+.producti .icons .sc {
+  transition: ease-in-out 0.3s;
+}
+.producti .icons .sc:hover {
+  color: #f6861f;
+}
+.producti .icons .lv {
+  transition: ease-in-out 0.3s;
+}
+.producti .icons .lv:hover {
+  color: red;
+}
+.producti .productimg {
+  width: 200px;
+  height: 249px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.producti .productimg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.producti .productinfo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.producti .productinfo p {
+  color: #95979c;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-family: Inter, sans-serif;
+}
+.producti .productinfo h6 {
+  color: #232d40;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  margin-bottom: 1.2rem;
+  word-break: break-word;
+  font-family: Inter, sans-serif;
+  margin-bottom: 15px;
+}
+.producti .productinfo .circle {
+  border: 1px dashed gray;
+  border-radius: 50%;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.producti .productinfo .starsandcom {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+.producti .productinfo .starsandcom .stars {
+  font-size: 2dvi;
+}
+.producti .productinfo .starsandcom .stars i {
+  color: rgba(169, 179, 193, 0.33);
+}
+.producti .productinfo .starsandcom .comment {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  font-size: 2dvi;
+  color: gray;
+  font-weight: 200;
+}
+.producti .productinfo .starsandcom .comment span {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+}
+.producti .productinfo .button {
+  padding: 12px 17px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background: rgba(23, 67, 223, 0.07);
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.producti .productinfo .button h5 {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #1743df !important;
+  font-family: Inter, sans-serif;
+}
+.producti .productinfo .secondbutton {
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  margin-bottom: 6rem;
+  border: 1px solid rgb(0, 128, 0);
+  margin-right: 1rem;
+}
+.producti .productinfo .secondbutton h4 {
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  color: rgb(0, 128, 0) !important;
+  font-family: Inter, sans-serif;
+}
+.producti .productinfo .prices span {
+  color: #95979c;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+  text-decoration: line-through;
+}
+.producti .productinfo .prices h4 {
+  color: #232d40;
+  font-size: 2.1rem;
+  line-height: 2.8rem;
+  font-weight: 600;
+  font-family: Inter, sans-serif;
+}
+.producti .productinfo .thirdbutton {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid #40b659;
+  background-color: #40b659;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  line-height: 2rem;
+  padding: 15px 70px 15px 30px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  transition: ease-in-out 0.3s;
+}
+.producti .productinfo .thirdbutton:hover {
+  background-color: white;
+  color: #40b659;
+}
+.producti:hover {
+  box-shadow: 0 15px 80px rgba(0, 0, 0, 0.07), 0 1.87823px 10.0172px rgba(0, 0, 0, 0.035);
+}
+.producti .calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid transparent;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: rgba(149, 151, 156, 0.0470588235);
+  position: absolute;
+  right: -36px;
+  bottom: 120px;
+}
+.producti .calendar .months {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.producti .calendar .months .month {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px 0.7rem;
+  border-radius: 4px;
+  color: #95979c;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.producti .calendar .months .month p, .producti .calendar .months .month h1 {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+.producti .calendar .months .month:hover {
+  border: 1px solid black;
+}
+.producti .calendar .months .month:hover p, .producti .calendar .months .month:hover h1 {
+  color: black;
+}
+.producti .calendar .pmt {
+  color: #232d40;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  margin-top: 0.4rem;
+  font-family: Inter, sans-serif;
+}
+
+.fourthbutton {
+  border: 1px solid #f6861f;
+  background-color: #f6861f;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 1.6rem;
+  font-family: Inter, sans-serif;
+}
+.fourthbutton:hover {
+  background-color: white;
+  color: #f6861f;
+}
+
+.textp {
+  padding-left: 40px;
+}
+.textp h1 {
   font-size: 2.6rem;
   margin-bottom: 1.6rem;
   line-height: 1.2;
@@ -563,7 +799,7 @@
   font-family: Inter, sans-serif;
   font-weight: 600;
 }
-#textpage .row .textp p {
+.textp p {
   width: 100%;
   font-size: 1.4rem;
   line-height: 2.4rem;

@@ -96,16 +96,20 @@
     margin-bottom: 3.6rem;
     font-family:Inter, sans-serif;
 }
-.header{ display: flex;
+
+
+.header{display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+   
+    border: 1px solid gray;
+    padding: 20px 35px;
     .first{
         color: #95979c;
         font-family: Inter, sans-serif;
         font-weight: 400;
-        font-size: 1.4rem;
-        line-height: 1.5rem;
+        font-size: 1.3rem;
+        line-height: 1.3rem;
          select {
             border: unset;
             font-family: inherit;
@@ -128,6 +132,11 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
+        color: #95979c;
+        font-family: Inter, sans-serif;
+        font-weight: 400;
+        font-size: 1.3rem;
+        line-height: 2rem;
         .square{
             width: 30px;
             height: 30px;
@@ -140,14 +149,245 @@
         justify-content: center;
         align-items: center;
         gap: 15px;
+        margin-left: 50px;
+        color: #95979c;
+        font-family: Inter, sans-serif;
+        font-weight: 400;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
         .grid{  
             border: 1px solid black;
             border-radius: 10px;
-            padding: 20px;
+            padding: 10px;
 i{
-    font-size: 40px;
+    font-size: 30px;
     color: #f6861f;
 }
         }
     }
+
+
 }
+.producti{display: flex; 
+    flex-direction: column; 
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-top: none;
+    padding: 25px;
+    .icons{
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+        align-items: center;
+        
+        margin-left: 30px;
+        font-size: 35px;
+        margin-bottom: 30px;
+        color: rgba(169,179,193, 0.33);
+       
+        .sc{ transition: ease-in-out 0.3s;
+           &:hover{
+            color: #f6861f;
+           }
+
+        }
+        .lv{ transition: ease-in-out 0.3s;
+             &:hover{
+            color: red;
+           }
+          
+        }
+    
+    }
+       
+
+    .productimg{
+        width: 200px;
+        height: 249px;
+        overflow: hidden;
+        
+        margin-bottom: 40px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+    }
+    .productinfo{position: relative;
+        display: flex;
+        
+        flex-direction: column;
+        align-items: start;
+        p{
+            color: #95979c;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-family: Inter, sans-serif;
+        }
+        h6{
+            color: #232d40;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    margin-bottom: 1.2rem;
+    word-break: break-word;
+    font-family: Inter, sans-serif;
+    margin-bottom: 15px;
+        }
+        .circle{    border: 1px dashed gray;
+            border-radius: 50%;
+            padding: 5px;
+            margin-bottom: 20px;
+         
+        }
+        .starsandcom{
+            display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    .stars{
+        font-size: 2dvi;
+        i{
+            color: rgba(169,179,193, 0.33);
+        }
+    }
+    .comment{display: flex;
+        justify-content: center;
+        gap: 5px;
+        align-items: center;
+        font-size: 2dvi;
+        color: gray;
+        font-weight: 200;
+        
+        span{
+            font-family: Inter, sans-serif;
+            font-size: 20px;
+        }
+      
+    }
+        }
+        .button{
+            padding: 12px 17px;
+            border-radius: 5px;
+            border: 1px solid transparent;
+            background: rgba(23, 67, 223, .07);
+            margin-bottom: 10px;
+            margin-top: 20px;
+            h5{
+                font-weight: 600;
+    font-size: 1.1rem;
+        color: #1743df !important;
+        font-family: Inter, sans-serif;
+       
+            }
+        }
+        .secondbutton{ padding: .5rem 1.2rem;
+            border-radius: 4px;
+            margin-bottom: 6rem;
+            border: 1px solid  rgb(0, 128, 0);
+            margin-right: 1rem;
+            h4{
+                font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color: rgb(0, 128, 0) !important;
+    font-family: Inter, sans-serif;
+   
+    
+    
+            }
+        }
+        .prices{
+            span{
+                color: #95979c;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+   
+    text-decoration: line-through;
+            }
+            h4{
+                color: #232d40;
+    font-size: 2.1rem;
+    line-height: 2.8rem;
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+
+            }
+        }
+        .thirdbutton{display: flex;
+            justify-content: center;
+            gap: 10px;
+            align-items: center;
+            border-radius: 6px;
+            border: 1px solid #40b659;
+            background-color: #40b659;
+            font-size: 20px;
+            font-family: Inter, sans-serif;
+            line-height: 2rem;
+            padding: 15px 70px 15px 30px;
+color: white;
+margin-top: 30px;
+margin-bottom:10px;
+transition: ease-in-out 0.3s;
+&:hover{
+    background-color:white;
+    color: #40b659;
+}
+        }
+     
+    }
+    &:hover {
+        box-shadow: 0 15px 80px rgba(0, 0, 0, .07), 0 1.87823px 10.0172px rgba(0, 0, 0, .035)}
+        .calendar{  display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid transparent;
+            padding: 10px;
+            border-radius: 12px;
+            background-color: #95979c0c;
+            .months{
+             
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               
+               
+                .month {
+                    transition: ease-in-out 0.3s;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 2px .7rem;
+                    border-radius: 4px;
+                    color: #95979c;
+                    cursor: pointer;
+                    border: 1px solid transparent;
+        
+                    p, h1 {
+                        font-size: 1rem;
+                        line-height: 2rem;
+                    }
+        
+                    &:hover {
+                        border: 1px solid black;
+                        
+                        p, h1 {
+                            color: black;
+                        }
+                    }
+                }
+          }
+            .pmt{
+                color: #232d40;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    margin-top: .4rem;
+    font-family:Inter, sans-serif;
+            }
+       position: absolute;
+    right: -36px; 
+bottom: 120px;}
+      }

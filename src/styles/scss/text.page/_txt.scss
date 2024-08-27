@@ -1,9 +1,23 @@
-#textpage{
-    .row{
-        display: flex;
-        justify-content: end;
-        flex-direction: column;
-        .textp{
+
+  .fourthbutton{
+    
+    border: 1px solid  #f6861f;
+    background-color: #f6861f;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.6rem;
+    font-family: Inter, sans-serif;
+    &:hover{
+        background-color: white;
+        color: #f6861f;
+    }
+  }
+        .textp{padding-left: 40px;
             h1{
                 font-size: 2.6rem;    margin-bottom: 1.6rem;
                 line-height: 1.2;
@@ -21,5 +35,3 @@
     
             }
         }
-    }
-}
